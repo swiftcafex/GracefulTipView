@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GracefulTipView_Example' do
+  pod 'GracefulTipView', :path => '../'
+
+  target 'GracefulTipView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
