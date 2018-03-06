@@ -31,7 +31,10 @@ A tip view from tutorials. for use.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GracefulTipView/Classes/**/*'
-  
+
+    s.resource_bundles = {
+    'GracefulTipView' => ['GracefulTipView/Assets/*.png']
+    }
   # s.resource_bundles = {
   #   'GracefulTipView' => ['GracefulTipView/Assets/*.png']
   # }
