@@ -1,0 +1,16 @@
+PODS:
+  - GracefulTipView (0.1.0)
+
+DEPENDENCIES:
+  - GracefulTipView (from `../`)
+
+EXTERNAL SOURCES:
+  GracefulTipView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GracefulTipView: e7ef59f71cd1866a06ab9fb8b3afd7f3950e1108
+
+PODFILE CHECKSUM: b25ccd3d1eb90df979e0309099e96d447886d7a2
+
+COCOAPODS: 1.3.1

@@ -7,17 +7,43 @@
 //
 
 import UIKit
+import GracefulTipView
 
 class ViewController: UIViewController {
 
+    var tipView: GracefulTipView?
+    var testBottomButton: UIButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let tipView = GracefulTipView(frame: CGRect.zero)
+        tipView.tipText = "点击开始扫描"
+        self.view.addSubview(tipView)
+        self.tipView = tipView
+        
+        let testBottomButton = UIButton(frame: CGRect.zero)
+        testBottomButton.setImage(UIImage(named: "btn_camera"), for: .normal)
+        self.view.addSubview(testBottomButton)
+        self.testBottomButton = testBottomButton
+        
+        tipView.floatAboveOf(view: testBottomButton)
+        
     }
 
     override func didReceiveMemoryWarning() {
+        
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+    }
+    
+    override func viewWillLayoutSubviews() {
+        
+        super.viewWillLayoutSubviews()
+        self.tipView?.frame = CGRect(x: 20, y: 20, width: 100, height: 30)
+        self.testBottomButton?.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        self.testBottomButton?.center = CGPoint(x: self.view.frame.size.width / 2, y: self.view.frame.size.height - 100)
+        
     }
 
 }

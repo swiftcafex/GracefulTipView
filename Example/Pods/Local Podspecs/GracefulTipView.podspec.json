@@ -1,0 +1,22 @@
+{
+  "name": "GracefulTipView",
+  "version": "0.1.0",
+  "summary": "A short description of GracefulTipView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/galaxys45312/GracefulTipView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "galaxys45312": "galaxys45312@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/galaxys45312/GracefulTipView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GracefulTipView/Classes/**/*"
+}

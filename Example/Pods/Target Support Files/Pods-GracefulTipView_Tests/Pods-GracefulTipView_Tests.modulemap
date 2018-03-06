@@ -1,0 +1,6 @@
+framework module Pods_GracefulTipView_Tests {
+  umbrella header "Pods-GracefulTipView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
