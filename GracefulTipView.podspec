@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A tip view from tutorials. for use.
                        DESC
 
-  s.homepage         = 'https://github.com/galaxys45312/GracefulTipView'
+  s.homepage         = 'https://github.com/swiftcafex/GracefulTipView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'galaxys45312' => 'galaxys45312@gmail.com' }
-  s.source           = { :git => 'https://github.com/galaxys45312/GracefulTipView.git', :tag => s.version.to_s }
+  s.author           = { 'swiftcafex' => 'swiftcafex@gmail.com' }
+  s.source           = { :git => 'https://github.com/swiftcafex/GracefulTipView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
